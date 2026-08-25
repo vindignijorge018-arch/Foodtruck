@@ -44,7 +44,7 @@ if (isset($_POST['procesar_imagen']) && isset($_FILES['archivo_ia']) && $_FILES[
     
     if (strpos($tipo_archivo, 'image/') === 0) {
         
-        $api_key = 'AIzaSyB0CidpxlyjDw1pgkZvihiSWREpFV_JldE'; 
+        $api_key = ''; 
         
         // --- CAMBIO CLAVE: Usamos v1 en lugar de v1beta y el nombre base del modelo ---
         $url = 'https://generativelanguage.googleapis.com/v1alpha/models/gemini-3-flash-preview:generateContent?key=' . $api_key;
