@@ -1,0 +1,23 @@
+[11-May-2026 20:10:22 America/Santiago] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'jorger32_Bargaiwe.config_impresora' doesn't exist in /home2/jorger32/public_html/gestion_rapida/r_config_impresora.php:51
+Stack trace:
+#0 /home2/jorger32/public_html/gestion_rapida/r_config_impresora.php(51): mysqli->query('SELECT * FROM c...')
+#1 {main}
+  thrown in /home2/jorger32/public_html/gestion_rapida/r_config_impresora.php on line 51
+[20-May-2026 20:19:38 America/Santiago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jorger32_admin'@'localhost' to database 'jorger32_Bargaiwe_db' in /home2/jorger32/public_html/gestion_rapida/r_db.php:58
+Stack trace:
+#0 /home2/jorger32/public_html/gestion_rapida/r_db.php(58): mysqli->__construct('localhost', 'jorger32_admin', Object(SensitiveParameterValue), 'jorger32_Bargai...')
+#1 /home2/jorger32/public_html/gestion_rapida/r_pedidos.php(11): include('/home2/jorger32...')
+#2 {main}
+  thrown in /home2/jorger32/public_html/gestion_rapida/r_db.php on line 58
+[20-May-2026 20:20:07 America/Santiago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jorger32_admin'@'localhost' to database 'jorger32_Bargaiwe_db' in /home2/jorger32/public_html/gestion_rapida/r_db.php:58
+Stack trace:
+#0 /home2/jorger32/public_html/gestion_rapida/r_db.php(58): mysqli->__construct('localhost', 'jorger32_admin', Object(SensitiveParameterValue), 'jorger32_Bargai...')
+#1 /home2/jorger32/public_html/gestion_rapida/r_pedidos.php(11): include('/home2/jorger32...')
+#2 {main}
+  thrown in /home2/jorger32/public_html/gestion_rapida/r_db.php on line 58
+[20-May-2026 20:20:08 America/Santiago] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'jorger32_admin'@'localhost' to database 'jorger32_Bargaiwe_db' in /home2/jorger32/public_html/gestion_rapida/r_db.php:58
+Stack trace:
+#0 /home2/jorger32/public_html/gestion_rapida/r_db.php(58): mysqli->__construct('localhost', 'jorger32_admin', Object(SensitiveParameterValue), 'jorger32_Bargai...')
+#1 /home2/jorger32/public_html/gestion_rapida/r_pedidos.php(11): include('/home2/jorger32...')
+#2 {main}
+  thrown in /home2/jorger32/public_html/gestion_rapida/r_db.php on line 58
